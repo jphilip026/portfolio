@@ -4,110 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-      .MicrosoftTeams-image1 {
-        width: 200px;
-        height: 200px;
-        clip-path: circle();
-      }
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f819e18926.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- navigation -->
-<section>
- <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid bg-gray pt-3 pb-3">
-          <a class="navbar-brand h5" href="#">JP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #164863; ">
+
+        <div class="container container-fluid">
+
+          <h5 style="color: white; margin-right: 100px;" id="jpdev">Jpdev</h5>
+
+          <button style="background-color: #E0F4FF;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
+
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div id="navbarNav" style="font-weight: bold;" class="collapse navbar-collapse">
+
+            <ul class="navbar-nav">
+
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+                <a style="color: white; margin-right: 30px;" class="nav-link active" aria-current="page" href="#navbarNav">Home</a>
+
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+
+                <a style="color: white; margin-right: 30px;" class="nav-link" href="#portfolio">Portfolio</a>
+
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Services</a>
+
+                <a style="color: white; margin-right: 30px;" class="nav-link" href="#services">Services</a>
+
               </li>
+
+              <li class="nav-item">
+
+                <a style="color: white;" class="nav-link" href="#about">About</a>
+
+              </li>
+
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
           </div>
-        </div>
-      </nav>
-    <!-- //navigation -->
-    <!-- hero -->
-    <div class="row pt-5">
-        <div class="col-lg-6">
-          <h1> MY PORTFOLIO</h1>
-          <h6>Web Designer</h6>
-          <p class="text-left">High level experience in web design and development knowledge, producing quality work.</p>
-          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i>Contact Me</button>
-          <button type="button" class="btn btn-outline-gray btn-lg download-btn"><i class="fab fa-google-play"></i>
-            Learn More</button>    
-        </div>
-    </div>    
-        <div class="col-lg-6">
-          <img class="MicrosoftTeams-image1" src="MicrosoftTeams-image (1).png" alt="">
-        </div>
-    <!-- //hero -->
-        <!-- work -->
-        <section>  
-          <h5 class="text-center pt-5">MY WORK</h5>
-          <h5 class="text-left">PORTFOLIO #1</h5>
-          <p class="text-left">Take a look at some of my completed web development projects.</p>
-          <img style="width: 10%;" src="max-goncharov-iN6FWLaWqKs-unsplash.jpg" alt="">
 
-          <h5 class="text-left pt-5">PORTFOLIO #2</h5>
-          <p class="text-left">Take a look at some of my completed web development projects.</p>
-          <img style="width: 10%;" src="boxed-water-is-better-_XXo6KBedik-unsplash.jpg" alt="">
+        </div>
 
-          <h5 class="text-left pt-5">PORTFOLIO #3</h5>
-          <p class="text-left">Take a look at some of my completed web development projects.</p>
-          <img style="width: 10%;" src="toine-g-iRnUeA04kUY-unsplash.jpg" alt="">
-        </section>
-        <!-- //work -->
-</section>        
-</div>
-<!-- certificates -->
-<section>
-<p style="size: 5; text-align: center;">achieviments</p>  
-<h5 class="text-center pt-0">Certificates</h5>  
-<img src="Capture1.PNG" style="height: 200px; width: 300px; margin-left: 250px;" class="object-fit-sm-contain border rounded Capture1" alt="...">
-<img src="Capture3.PNG" style="height: 200px; width: 300px;" class="object-fit-md-contain border rounded" alt="...">
-<img src="Capture2.PNG" style="height: 200px; width: 300px;" class="object-fit-lg-contain border rounded" alt="...">
-</section>
-<!-- //certificates -->
-    <!-- hero section -->
-    <section id="hero">
+    </nav>
+
+    <!-- //NAVBAR -->
+    
+    <!-- TITLE -->
+    <section style="background-color: #E0F4FF;">
+        <div class="container container-fluid">
+
+            <div class="row d-flex align-items-center">
+            <div class="col-6">
+              <h1>Hi I'm Jpdev My Portfolio</h1>
+              <h5>Web Developer</h5>
+              <p>I'm currently 3rd year BSIT student. My main goal is to be a successful Web Developer to help people connect each other across the world.</p>
+              <div class="skills">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div><p style="font-weight: bold; margin-bottom: 50px;">HTML\CSS\JavaScript</p></div>
+              </div>
+             
+            <div class="col-6" style="margin-bottom: 80px;">
+             <img src="/all image/Picture1.jpg" alt="" class="mt-5 mg-5" style="width: 90%; border-radius: 30%; border: 10px outset #164863;">
+            </div>
+
+        </div>
 
     </section>
+    <!-- //TITLE -->
+
+    <!-- portfolio -->
+        <section id="portfolio" class="text-center" style="background-color: #164863; color: white;">
+
+            <div class="container container-fluid">
+    
+                <div class="row">
+    
+                    <div class="col-12"></div>
+    
+                    <div style="margin-bottom: 100px;" id="carouselExample" class="carousel slide">
+    
+                        <div class="carousel-inner">
+    
+                          <div class="carousel-item active container-fluid">
+                            <h3 style="margin-top: 20px;">Portfolio #1</h3>
+                            <h4 class="testimonial-text pt-5 pb-5">Take a look at some of my completed web development projects. A collection of Dekstop and Mobile View Applications.</h4>
+    
+                            <img src="/all image/Picture4.png" style="width: 50%; border-radius: 20px;" alt="">
+    
+                          </div>
+    
+                          <div class="carousel-item">
+                            <h3 style="margin-top: 20px;">Portfolio #2</h3>
+                            <h4 class="testimonial-text pt-5 pb-5">Take another look at some of my completed Editing Picture. This is my skill for Design.</h4>
+    
+                            <img src="/all image/Picture3.png" style="width: 50%; border-radius: 20px;;" alt="">
+    
+                          </div>
+    
+                          <div class="carousel-item">
+                            <h3 style="margin-top: 20px;">Portfolio #3</h3>
+                            <h4 class="testimonial-text pt-5 pb-5">Lets have a look at my published Online Reservation. It's all about of fast and Ordering your food.</h4>
+    
+                            <img src="/all image/Picture2.png" style="width: 50%; border-radius: 20px;" alt="">
+                            
+                          </div>
+    
+                        </div>
+    
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+                          <span class="visually-hidden">Previous</span>
+    
+                        </button>
+    
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    
+                          <span class="visually-hidden">Next</span>
+                        
+                        </button>
+                        <!-- certificate -->
+                        <section id="press">
+                          <img class="press-img pt-5 pb-1 col-3" src="/all image/Capture8.PNG" alt="certificate">
+                          <img class="press-img pt-5 pb-1 col-3" src="/all image/Cap 9.PNG" alt="certificate">
+                          <img class="press-img pt-5 pb-1 col-3" src="/all image/Capture9.PNG" alt="certificate">
+                          <img class="press-img pt-2 pb-1 col-3" src="/all image/Capture10.PNG" alt="certificate">
+                        </section>
+                      
+                      </div>
+    
+                </div>
+    
+            </div>
+    
+        </section>
+    <!-- //portfolio -->
+    <!-- services -->
+    <section id="services" class="pt-5 pb-5 text-center" style="background-color: #E0F4FF;">
+        <div style="margin-bottom: 100px;" class="container contaier-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h3>Services</h3>
+              <p style="font-weight: bold;" class="pb-5">How I Help You For My Skills</p>
+      
+                <div class="col-12">
+                    <div class="card text-center" style="width: 16rem; display: inline-block; margin-right: 30px;">
+                     <div class="card-body">
+                         <h4 style="color: #164863;">HTML</h4>
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <i class="fa-brands fa-html5 pt-2 pb-2" style="font-size: 50px; color: #164863;"></i>
+                         <p style="padding: 0px 10px; color: #164863;">I use HTML for creating Web pages. HTML to describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+                     </ul>
+                 
+                    </div>
+      
+                    <div class="card text-center" style="width: 16rem; display: inline-block; margin-right: 30px;">
+                     <div class="card-body">
+                         <h4 style="color: #164863;">CSS</h4>
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <i class="fa-brands fa-css3-alt pt-2 pb-2" style="font-size: 50px; color: #164863;"></i>
+                         <p style="padding: 0px 10px; color: #164863;">I use this to design your website and add style by dictating how a site is displayed on a browser. Is unique in that it doesn't create any new elements, like HTML or JavaScript.</p>
+                     </ul>
+                  
+                    </div>
+
+                    <div class="card text-center" style="width: 16rem; display: inline-block; margin-right: 30px;">
+                     <div class="card-body">
+                         <h4 style="color: #164863;">JavaScript</h4>
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <i class="fa-brands fa-js pt-2 pb-2" style="font-size: 50px; color: #164863;"></i>
+                         <p style="padding: 0px 10px; color: #164863;">I use JavaScript to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.</p>
+                     </ul>
+               
+                    </div>
+                </div>
+      
+            </div>
+         </div>
+        </div>
+    </section>
+    <!-- //services -->
+    <!-- about -->
+    <section id="about" class="pt-5 pb-5 text-center" style="background-color: #164863;">
+        <div class="container container-fluid pb-5 pt-5">
+          <div class="row ">
+            <div class="col-12">
+                <img class="rounded-circle" src="/all image/Picture1.jpg" alt="" width="200px" style="border: 8px solid #E0F4FF;">
+                <h2 class="text-white pt-3">John Philip I. Pingul</h2>
+                <p style="font-weight: bold; color: white; padding-bottom: 5px;">3rd Year | Your I.T. Student</p>
+                <p style="color: white; padding-bottom: 40px;">Hi, I'm John Philip Currently 3rd year BSIT Student. My main goal is to be a successful Web Developer to help people connect each other across the world. I'm using the HTML/CSS/JavaScript.</p>
+              <h3 class="text-white pb-2">Ready to Upgrade your Websites and Design Let's Go?</h3>
+              <p style="color: white; font-size: 15px; padding-bottom: 10px;">Let me help you to create a Beautiful and Interactive Website for you.</p>
+              <a href="/resume/resume.pdf" style="background-color: #E0F4FF; color: #164863; font-weight: bold; cursor: pointer;" class="btn" download>Download Resume</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- //about -->
+    <!-- footer -->
+    <section style="background-color: #E0F4FF;" class="pt-5 pb-5 text-center">
+        <div class="container container-fluid">
+          <div class="row">
+            <div class="col-12">
+                <a style="font-size: 35px; color: #164863; margin-right: 10px;" href="https://www.facebook.com/johnphilippingul330?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a style="font-size: 35px; color: #164863; margin-right: 10px;" href="https://www.instagram.com/johnphilippngl/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a style="font-size: 35px; color: #164863; margin-right: 10px;" href="https://mail.google.com/mail/u/0/#inboxl"><i class="fa-solid fa-envelope"></i></a>
+              <p style="font-weight: bold; color: #164863;" class="pt-5 text-center">&copy; Copyright 2023 Portfolio</p>
+              <p style="font-weight: bold; color: #164863;" class="text-center">Made with by: John Philip I. Pingul</p>
+              <a href="#jpdev" style="text-decoration: none; font-weight: bold; font-size: 25px; color: #164863;">Jpdev</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- //footer -->
     
     <!-- bootstrap js cdn -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
-integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
